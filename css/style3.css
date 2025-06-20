@@ -1,0 +1,158 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+   
+}
+.nav-links a{
+    color: white;
+    text-decoration:none;
+     font-weight: bold;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(241, 241, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 100px;
+}
+.hero-image img{
+    width: 400px;
+    height: auto;
+    border: white;
+    box-shadow: 0 2px 3px rgb(197, 196, 196);
+}
+.hero-text h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.hero-text p{
+    margin-bottom: 30px;
+   
+}
+.hero button{
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+   background-color: rgb(0, 0, 72);
+   border-radius: 10px;
+   
+}
+.hero button:hover{
+    background-color: rgb(255, 147, 147);
+}
+.hero-text {
+    max-width: 500px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    gap: 20px;
+}
+.feature{
+    flex: 4  1 250px;
+    background-color: rgb(241, 241, 255);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    
+}
+.product{
+    display: flex;
+    gap: 20px;
+}
+.product-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+.product-gallery{
+    background-color: rgb(235, 235, 235);
+    padding: 20px 20px;
+    text-align: center;
+}
+.product-gallery h2{
+    height: 40px;
+}
+.product-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(181, 181, 181);
+    transition: .3s ease;
+}
+.product-card:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    align-items: flex-start;
+    padding: 20px 20px;
+
+}
+.subs h3{
+    color: white;
+}
+
+.subs p{
+    color: white;
+}
+
+.subs button{
+    color: blue;
+    background-color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: white;
+
+}
+.subs input{
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: white;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
